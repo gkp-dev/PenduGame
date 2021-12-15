@@ -10,7 +10,6 @@ function Homepage() {
     const [word, setWord] = useState('')
     const [lettersInWord, setLetterWord] = useState()
     const [letterType, setLetterType] = useState('')
-    const [allUsersLetter, setAllUsersLetters] = useState([])
     const { style } = useContext(ThemeContext)
     const [isModalLose, setLoseModal] = useState(false)
     

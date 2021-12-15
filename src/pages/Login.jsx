@@ -1,5 +1,5 @@
 import { useState, useContext } from "react"
-import { useNavigate, Link } from "react-router-dom"
+import { useNavigate} from "react-router-dom"
 import toast from 'react-hot-toast'
 import { ThemeContext } from '../App'
 

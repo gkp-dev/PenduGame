@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react'
+import {useEffect} from 'react'
 
 function WordPendu({ lettersInWord, setLetterWord, letterType, word, numberOfTry, setTry}) {
 
