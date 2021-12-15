@@ -1,10 +1,12 @@
-import { useState } from "react"
+import { useState, useContext } from "react"
 import { useNavigate, Link } from "react-router-dom"
 import toast from 'react-hot-toast'
+import { ThemeContext } from '../App'
 
 
 function Login() {
     const [user, setUser] = useState('')
+    const { style } = useContext(ThemeContext)
 
     let navigate = useNavigate()
 
@@ -38,7 +40,7 @@ function Login() {
     }
 
     return (
-        <div className=" grid place-items-center p-10">
+        <div className={`${style.bg} ${style.text} grid place-items-center p-10`}>
             <form className="flex flex-col space-y-10" onSubmit={handleSubmit}>
                 <span className="text-3xl font-bold">
                     Connectez-vous!

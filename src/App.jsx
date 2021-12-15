@@ -10,7 +10,7 @@ import Login from "./pages/Login"
 export const ThemeContext = createContext()
 function App() {
   const [theme, setTheme] = useState('light')
-  const [style, setStyle] = useState({ bg: 'bg-white', text: 'text-white' })
+  const [style, setStyle] = useState({ bg: 'bg-white', text: 'text-black' })
 
   const toggleTheme = (theme) => {
     setTheme(theme)
