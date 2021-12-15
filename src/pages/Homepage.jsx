@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect, useContext} from 'react'
 import Classment from '../Components/Classment'
 import WordPendu from '../Components/WordPendu'
@@ -35,6 +36,7 @@ function Homepage() {
         handleWin()
         
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     useEffect(() => {

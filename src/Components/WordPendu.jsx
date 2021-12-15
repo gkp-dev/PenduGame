@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import {useEffect} from 'react'
 
 function WordPendu({ lettersInWord, setLetterWord, letterType, word, numberOfTry, setTry}) {
